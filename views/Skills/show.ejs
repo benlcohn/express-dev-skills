@@ -1,0 +1,10 @@
+<a href="/">Home</a>
+|
+<a href="/skills">Skills</a>
+<%- include('../partials/header') %>
+  <h3>About:</h3>
+  <p>
+    <%= skill.desc %>
+  </p><br>
+  <a href="/skills/<%= skill.id %>/edit">Edit Skill</a>
+  <%- include('../partials/footer') %>
